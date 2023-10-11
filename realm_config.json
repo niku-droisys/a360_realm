@@ -1,0 +1,9 @@
+{
+    "app_id": "dc_a360_rndc_fs_fl_dfb_21-zniex",
+    "config_version": 20210101,
+    "name": "DC_A360_RNDC_FS_FL_DFB_21",
+    "location": "US-VA",
+    "provider_region": "azure-eastus2",
+    "deployment_model": "LOCAL",
+    "environment": "qa"
+}
