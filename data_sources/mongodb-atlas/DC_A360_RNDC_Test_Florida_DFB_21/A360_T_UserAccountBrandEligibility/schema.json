@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "BrandEligibilityId": {
+            "bsonType": "int"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "EligibilityName": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserAccountBrandEligibilityId": {
+            "bsonType": "int"
+        },
+        "UserAccountBrandEligibilityStatusId": {
+            "bsonType": "int"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_UserAccountBrandEligibility"
+}

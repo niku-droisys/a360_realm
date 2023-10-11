@@ -1,0 +1,115 @@
+{
+    "properties": {
+        "AvaragePrice": {
+            "bsonType": "double"
+        },
+        "BranchCode": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "ExecutedByUser": {
+            "bsonType": "string"
+        },
+        "ExecutedNote": {
+            "bsonType": "string"
+        },
+        "ExecutedProgramProduct": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "GoalValue": {
+                        "bsonType": "double"
+                    },
+                    "IsCases": {
+                        "bsonType": "string"
+                    },
+                    "_id": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "ExecutedRoledId": {
+            "bsonType": "string"
+        },
+        "ExpiredUnits": {
+            "bsonType": "double"
+        },
+        "InvalidReason": {
+            "bsonType": "string"
+        },
+        "IsNextCallObjective": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "ObjectiveMasterId": {
+            "bsonType": "objectId"
+        },
+        "ObjectiveStatusId": {
+            "bsonType": "int"
+        },
+        "POD": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PicoIncentiveAchive": {
+            "bsonType": "int"
+        },
+        "ProgramUOM": {
+            "bsonType": "string"
+        },
+        "ProgramUOMDesc": {
+            "bsonType": "string"
+        },
+        "ReportingUnits": {
+            "bsonType": "double"
+        },
+        "RouteList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        },
+        "SalesTypeID": {
+            "bsonType": "long"
+        },
+        "StandardCode": {
+            "bsonType": "string"
+        },
+        "StandardDesc": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_ObjectiveAccount"
+}

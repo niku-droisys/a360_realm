@@ -1,0 +1,46 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "IsDismissed": {
+            "bsonType": "bool"
+        },
+        "IsPending": {
+            "bsonType": "bool"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "RemindMeLater": {
+            "bsonType": "bool"
+        },
+        "SnoozeDateTime": {
+            "bsonType": "date"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [],
+    "title": "A360_M_UserAlertInfo",
+    "type": "object"
+}

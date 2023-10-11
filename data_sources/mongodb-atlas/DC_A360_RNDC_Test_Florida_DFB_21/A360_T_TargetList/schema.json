@@ -1,0 +1,59 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DataSourceFrom": {
+            "bsonType": "long"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsEditable": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "MasterTargetID": {
+            "bsonType": "string"
+        },
+        "ObjAdvanceSearchString": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "TargetListName": {
+            "bsonType": "string"
+        },
+        "TargetType": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_TargetList"
+}

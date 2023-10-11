@@ -1,0 +1,181 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "DocumentId": {
+            "bsonType": "string"
+        },
+        "FlaggedUserList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "ClientCode": {
+                        "bsonType": "long"
+                    },
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "IsSyncRecord": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    },
+                    "UserCode": {
+                        "bsonType": "long"
+                    },
+                    "UserContactId": {
+                        "bsonType": "string"
+                    },
+                    "UserEmail": {
+                        "bsonType": "string"
+                    },
+                    "UserName": {
+                        "bsonType": "string"
+                    },
+                    "UserRole": {
+                        "bsonType": "string"
+                    },
+                    "UserType": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": []
+            }
+        },
+        "GeoLocation": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "double"
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsFlagged": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "Latitude": {
+            "bsonType": "double"
+        },
+        "ListNoteDocuments": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "DocumentId": {
+                        "bsonType": "string"
+                    },
+                    "NoteDocumentsStatusId": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    }
+                },
+                "required": []
+            }
+        },
+        "Longitude": {
+            "bsonType": "double"
+        },
+        "NoteStatusId": {
+            "bsonType": "long"
+        },
+        "Notes": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PhotoTagList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "PhotoTagId": {
+                        "bsonType": "long"
+                    },
+                    "TagName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "PhotoTagList"
+            }
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "UserName": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_AccountNote"
+}

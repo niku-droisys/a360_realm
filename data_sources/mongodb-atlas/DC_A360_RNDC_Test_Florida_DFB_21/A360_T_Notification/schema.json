@@ -1,0 +1,201 @@
+{
+    "properties": {
+        "AccountName": {
+            "bsonType": "string"
+        },
+        "AccountNumber": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "FirstName": {
+            "bsonType": "string"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "LastName": {
+            "bsonType": "string"
+        },
+        "ListLinkedAccount": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AccountName": {
+                        "bsonType": "string"
+                    },
+                    "Address1": {
+                        "bsonType": "string"
+                    },
+                    "City": {
+                        "bsonType": "string"
+                    },
+                    "ClientCode": {
+                        "bsonType": "long"
+                    },
+                    "Country": {
+                        "bsonType": "string"
+                    },
+                    "County": {
+                        "bsonType": "string"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "DistributorAccountId": {
+                        "bsonType": "string"
+                    },
+                    "PartitionKey": {
+                        "bsonType": "string"
+                    },
+                    "State": {
+                        "bsonType": "string"
+                    },
+                    "Zip": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "MarketCode": {
+            "bsonType": "string"
+        },
+        "MessageParameters": {
+            "bsonType": "string"
+        },
+        "NotificationAction": {
+            "bsonType": "int"
+        },
+        "NotificationMessage": {
+            "bsonType": "string"
+        },
+        "NotificationScreenUsed": {
+            "bsonType": "int"
+        },
+        "NotificationStatusId": {
+            "bsonType": "long"
+        },
+        "NotificationType": {
+            "bsonType": "int"
+        },
+        "ObjectiveId": {
+            "bsonType": "string"
+        },
+        "OpportunityName": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "ProgramProduct": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AppellationCode": {
+                        "bsonType": "string"
+                    },
+                    "AppellationName": {
+                        "bsonType": "string"
+                    },
+                    "BrandCode": {
+                        "bsonType": "string"
+                    },
+                    "BrandName": {
+                        "bsonType": "string"
+                    },
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "FeatureTypeCode": {
+                        "bsonType": "string"
+                    },
+                    "FeatureTypeDesc": {
+                        "bsonType": "string"
+                    },
+                    "FlavorCode": {
+                        "bsonType": "string"
+                    },
+                    "FlavorName": {
+                        "bsonType": "string"
+                    },
+                    "GoalValue": {
+                        "bsonType": "double"
+                    },
+                    "IsCases": {
+                        "bsonType": "string"
+                    },
+                    "LobCode": {
+                        "bsonType": "string"
+                    },
+                    "LobName": {
+                        "bsonType": "string"
+                    },
+                    "PrdSeqNo": {
+                        "bsonType": "int"
+                    },
+                    "PromoTypeCode": {
+                        "bsonType": "string"
+                    },
+                    "PromoTypeDesc": {
+                        "bsonType": "string"
+                    },
+                    "SizeCode": {
+                        "bsonType": "string"
+                    },
+                    "SizeName": {
+                        "bsonType": "string"
+                    },
+                    "SupplierCode": {
+                        "bsonType": "string"
+                    },
+                    "SupplierName": {
+                        "bsonType": "string"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    }
+                }
+            }
+        },
+        "SalesRoute": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_Notification"
+}

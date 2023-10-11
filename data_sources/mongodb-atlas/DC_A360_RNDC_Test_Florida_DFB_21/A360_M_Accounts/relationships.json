@@ -1,0 +1,32 @@
+{
+    "AccountDocumentMappingList": {
+        "ref": "#/relationship/mongodb-atlas/DC_A360_RNDC_Test_Florida_DFB_21/A360_T_AccountDocument",
+        "source_key": "AccountDocumentMappingList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "AccountNotesList": {
+        "ref": "#/relationship/mongodb-atlas/DC_A360_RNDC_Test_Florida_DFB_21/A360_T_AccountNotes",
+        "source_key": "AccountNotesList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "ManualAccountSurveyList": {
+        "ref": "#/relationship/mongodb-atlas/DC_A360_RNDC_Test_Florida_DFB_21/A360_T_ManualAccountSurveys",
+        "source_key": "ManualAccountSurveyList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "ObjectivesListV1": {
+        "ref": "#/relationship/mongodb-atlas/DC_A360_RNDC_Test_Florida_DFB_21/A360_T_ObjectiveAccounts",
+        "source_key": "ObjectivesListV1",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "SubmitSurveyList": {
+        "ref": "#/relationship/mongodb-atlas/DC_A360_RNDC_Test_Florida_DFB_21/A360_T_SubmittedSurvey",
+        "source_key": "SubmitSurveyList",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

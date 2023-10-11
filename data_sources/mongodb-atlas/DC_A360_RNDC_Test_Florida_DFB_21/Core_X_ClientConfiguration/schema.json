@@ -1,0 +1,41 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "ConfigType": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "Key": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "Value": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "Core_X_ClientConfiguration"
+}

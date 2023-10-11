@@ -1,0 +1,41 @@
+{
+    "properties": {
+        "ActiveFrom": {
+            "bsonType": "date"
+        },
+        "BrandCode": {
+            "bsonType": "string"
+        },
+        "BrandName": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserBrandStatusId": {
+            "bsonType": "long"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_UserBrandMapping"
+}

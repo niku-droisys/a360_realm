@@ -1,0 +1,58 @@
+{
+    "properties": {
+        "AuditCode": {
+            "bsonType": "string"
+        },
+        "AuditDescription": {
+            "bsonType": "string"
+        },
+        "AuditId": {
+            "bsonType": "long"
+        },
+        "AuditJSON": {
+            "bsonType": "string"
+        },
+        "AuditName": {
+            "bsonType": "string"
+        },
+        "AuditScheduleId": {
+            "bsonType": "long"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PublishDescription": {
+            "bsonType": "string"
+        },
+        "PublishName": {
+            "bsonType": "string"
+        },
+        "StatusId": {
+            "bsonType": "long"
+        },
+        "TenantCode": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [],
+    "title": "A360_M_AuditSchedule",
+    "type": "object"
+}

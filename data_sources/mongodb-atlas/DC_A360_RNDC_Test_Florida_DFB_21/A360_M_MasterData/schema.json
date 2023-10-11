@@ -1,0 +1,44 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "FieldDescription": {
+            "bsonType": "string"
+        },
+        "FieldName": {
+            "bsonType": "string"
+        },
+        "FieldText": {
+            "bsonType": "string"
+        },
+        "FieldValue": {
+            "bsonType": "string"
+        },
+        "OrderNo": {
+            "bsonType": "int"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "StatusId": {
+            "bsonType": "int"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_MasterDatum"
+}

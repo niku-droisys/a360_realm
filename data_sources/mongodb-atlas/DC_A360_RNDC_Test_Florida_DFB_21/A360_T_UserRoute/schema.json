@@ -1,0 +1,41 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "RouteId": {
+            "bsonType": "int"
+        },
+        "RouteName": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "int"
+        },
+        "UserRouteId": {
+            "bsonType": "int"
+        },
+        "UserRouteStatusId": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_UserRoute"
+}

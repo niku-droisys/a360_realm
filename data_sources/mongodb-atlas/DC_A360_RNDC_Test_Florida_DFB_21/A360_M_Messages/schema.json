@@ -1,0 +1,56 @@
+{
+    "properties": {
+        "ActionName": {
+            "bsonType": "string"
+        },
+        "ActiveFrom": {
+            "bsonType": "date"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "Key": {
+            "bsonType": "string"
+        },
+        "Message": {
+            "bsonType": "string"
+        },
+        "MessageId": {
+            "bsonType": "int"
+        },
+        "MessageStatusId": {
+            "bsonType": "int"
+        },
+        "MessageType": {
+            "bsonType": "int"
+        },
+        "ModuleCode": {
+            "bsonType": "int"
+        },
+        "PageName": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_Message"
+}

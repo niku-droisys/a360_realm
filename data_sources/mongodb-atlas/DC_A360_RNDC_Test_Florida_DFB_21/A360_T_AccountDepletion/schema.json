@@ -1,0 +1,77 @@
+{
+    "properties": {
+        "AccountDepletionStatusId": {
+            "bsonType": "long"
+        },
+        "AppellationCode": {
+            "bsonType": "string"
+        },
+        "AppellationName": {
+            "bsonType": "string"
+        },
+        "Bottles": {
+            "bsonType": "long"
+        },
+        "BrandCode": {
+            "bsonType": "string"
+        },
+        "BrandName": {
+            "bsonType": "string"
+        },
+        "Cases": {
+            "bsonType": "long"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "long"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "FlavorCode": {
+            "bsonType": "string"
+        },
+        "FlavorName": {
+            "bsonType": "string"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "ReceivedDate": {
+            "bsonType": "date"
+        },
+        "SizeCode": {
+            "bsonType": "string"
+        },
+        "SizeName": {
+            "bsonType": "string"
+        },
+        "UPCCode": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_AccountDepletion"
+}

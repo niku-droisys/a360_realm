@@ -1,0 +1,54 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "ActiveFrom": {
+            "bsonType": "date"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "ParentRoleCode": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "RoleCategory": {
+            "bsonType": "long"
+        },
+        "RoleCode": {
+            "bsonType": "long"
+        },
+        "RoleDescrption": {
+            "bsonType": "string"
+        },
+        "RoleId": {
+            "bsonType": "long"
+        },
+        "RoleName": {
+            "bsonType": "string"
+        },
+        "RoleStatusId": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_Roles"
+}

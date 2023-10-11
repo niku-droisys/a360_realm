@@ -1,0 +1,56 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "DocumentID": {
+            "bsonType": "string"
+        },
+        "DocumentInfo": {
+            "bsonType": "string"
+        },
+        "DocumentURL": {
+            "bsonType": "string"
+        },
+        "EndDate": {
+            "bsonType": "date"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "ProgramName": {
+            "bsonType": "string"
+        },
+        "StartDate": {
+            "bsonType": "date"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_AccountDocumentMaster"
+}

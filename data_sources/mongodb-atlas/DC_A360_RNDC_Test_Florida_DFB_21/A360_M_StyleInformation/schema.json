@@ -1,0 +1,44 @@
+{
+    "properties": {
+        "BevType": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "S3ActualImage": {
+            "bsonType": "string"
+        },
+        "S3ThumbImage": {
+            "bsonType": "string"
+        },
+        "StyleDescription": {
+            "bsonType": "string"
+        },
+        "StyleName": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_StyleInformation"
+}

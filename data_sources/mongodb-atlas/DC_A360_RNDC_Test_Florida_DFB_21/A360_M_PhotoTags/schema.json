@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "BranchCode": {
+            "bsonType": "int"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PhotoTagId": {
+            "bsonType": "int"
+        },
+        "PhotoTagStatusId": {
+            "bsonType": "long"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "TagDescription": {
+            "bsonType": "string"
+        },
+        "TagName": {
+            "bsonType": "string"
+        },
+        "TagType": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_PhotoTag"
+}

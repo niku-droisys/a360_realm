@@ -1,0 +1,95 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "ClientCodeList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "long"
+            }
+        },
+        "ClientName": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "DivisionCodeList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "long"
+            }
+        },
+        "EndDate": {
+            "bsonType": "date"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsArchived": {
+            "bsonType": "bool"
+        },
+        "IsSelectAll": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "MarketCode": {
+            "bsonType": "long"
+        },
+        "MarketCodeList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "long"
+            }
+        },
+        "MarketName": {
+            "bsonType": "string"
+        },
+        "PDFLink": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "ReportGenerateStatus": {
+            "bsonType": "int"
+        },
+        "ReportTitle": {
+            "bsonType": "string"
+        },
+        "SearchBy": {
+            "bsonType": "string"
+        },
+        "StartDate": {
+            "bsonType": "date"
+        },
+        "UTCOffsetSeconds": {
+            "bsonType": "double"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "lstReportGenerateFor": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        }
+    },
+    "title": "A360_T_MarketVisitRecap"
+}

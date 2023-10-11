@@ -1,0 +1,151 @@
+{
+    "properties": {
+        "AccountName": {
+            "bsonType": "string"
+        },
+        "AccountsInArea": {
+            "bsonType": "int"
+        },
+        "Aroma": {
+            "bsonType": "string"
+        },
+        "BetterRecommendations": {
+            "bsonType": "object",
+            "properties": {
+                "ProductPitched": {
+                    "bsonType": "int"
+                },
+                "Reasons": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "int"
+                    }
+                }
+            }
+        },
+        "BeverageType": {
+            "bsonType": "string"
+        },
+        "BottlesPrice": {
+            "bsonType": "string"
+        },
+        "BranchCode": {
+            "bsonType": "int"
+        },
+        "BrandCode": {
+            "bsonType": "string"
+        },
+        "BrandId": {
+            "bsonType": "int"
+        },
+        "BrandName": {
+            "bsonType": "string"
+        },
+        "CasesPrice": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "int"
+        },
+        "Country": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "EstimatedRevenue": {
+            "bsonType": "string"
+        },
+        "FlavorNotes": {
+            "bsonType": "string"
+        },
+        "Instock": {
+            "bsonType": "string"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "LikeStatus": {
+            "bsonType": "int"
+        },
+        "ModelRunDatetime": {
+            "bsonType": "date"
+        },
+        "OtherReason": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "ProductPicture": {
+            "bsonType": "string"
+        },
+        "ProductSize": {
+            "bsonType": "string"
+        },
+        "PropensityToBuy": {
+            "bsonType": "string"
+        },
+        "RecId": {
+            "bsonType": "string"
+        },
+        "RecRank": {
+            "bsonType": "int"
+        },
+        "RecommendationStatusId": {
+            "bsonType": "int"
+        },
+        "RecommendationsId": {
+            "bsonType": "int"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "RouteList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        },
+        "SKU": {
+            "bsonType": "long"
+        },
+        "SellingPoints": {
+            "bsonType": "string"
+        },
+        "State": {
+            "bsonType": "string"
+        },
+        "Story": {
+            "bsonType": "string"
+        },
+        "SubType": {
+            "bsonType": "string"
+        },
+        "SupplierName": {
+            "bsonType": "string"
+        },
+        "Type": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "VendorId": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_AccountRecommendation"
+}

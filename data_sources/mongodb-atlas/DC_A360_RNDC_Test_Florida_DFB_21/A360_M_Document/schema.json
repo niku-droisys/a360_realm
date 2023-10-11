@@ -1,0 +1,168 @@
+{
+    "properties": {
+        "AdhocOpportunityID": {
+            "bsonType": "string"
+        },
+        "BatchID": {
+            "bsonType": "string"
+        },
+        "BrandCode": {
+            "bsonType": "string"
+        },
+        "BrandInfoList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "BrandCode": {
+                        "bsonType": "string"
+                    },
+                    "FlavorCode": {
+                        "bsonType": "string"
+                    },
+                    "SupplierName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "A360_M_Document_BrandInfoList",
+                "type": "object"
+            }
+        },
+        "BrandName": {
+            "bsonType": "string"
+        },
+        "CategoryCode": {
+            "bsonType": "long"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "DisplayFileName": {
+            "bsonType": "string"
+        },
+        "DisplayUser": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "DocumentStatus": {
+            "bsonType": "long"
+        },
+        "FileSize ": {
+            "bsonType": "int"
+        },
+        "FileType": {
+            "bsonType": "string"
+        },
+        "IsAIDataProcess": {
+            "bsonType": "long"
+        },
+        "IsPhotoUpload": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "IsThumbUpload": {
+            "bsonType": "bool"
+        },
+        "Latitude": {
+            "bsonType": "double"
+        },
+        "LoadedDate": {
+            "bsonType": "date"
+        },
+        "Longitude": {
+            "bsonType": "double"
+        },
+        "OpportunityID": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PhotoClickedDatetime": {
+            "bsonType": "date"
+        },
+        "PhotoClickedLatitude": {
+            "bsonType": "double"
+        },
+        "PhotoClickedLongitude": {
+            "bsonType": "double"
+        },
+        "PhotoTagList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "PhotoTagId": {
+                        "bsonType": "long"
+                    },
+                    "TagName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "PhotoTagList"
+            }
+        },
+        "ProgramName": {
+            "bsonType": "string"
+        },
+        "S3ActualImage": {
+            "bsonType": "string"
+        },
+        "S3ThumbImage": {
+            "bsonType": "string"
+        },
+        "TagText": {
+            "bsonType": "string"
+        },
+        "UniqueFileName": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UploadImageFrom": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_Document"
+}

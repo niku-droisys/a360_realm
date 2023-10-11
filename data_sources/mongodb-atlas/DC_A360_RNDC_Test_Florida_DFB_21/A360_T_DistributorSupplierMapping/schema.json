@@ -1,0 +1,44 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DisplaySupplierName": {
+            "bsonType": "string"
+        },
+        "DistributorSupplierMappingId": {
+            "bsonType": "int"
+        },
+        "MappingStatusId": {
+            "bsonType": "int"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "SupplierCode": {
+            "bsonType": "long"
+        },
+        "SyncRecordStatusId": {
+            "bsonType": "int"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_DistributorSupplierMapping"
+}

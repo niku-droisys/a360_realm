@@ -1,0 +1,168 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "ExecutedByUser": {
+            "bsonType": "string"
+        },
+        "ExecutedDate": {
+            "bsonType": "date"
+        },
+        "ExecutedNote": {
+            "bsonType": "string"
+        },
+        "ExecutedRoledId": {
+            "bsonType": "string"
+        },
+        "ExpiredOppUnits": {
+            "bsonType": "double"
+        },
+        "ExpiredProgramUnits": {
+            "bsonType": "double"
+        },
+        "InvalidReason": {
+            "bsonType": "string"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "ListExecutedObjDoc": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DocumentId": {
+                        "bsonType": "string"
+                    },
+                    "DocumentStatusId": {
+                        "bsonType": "long"
+                    }
+                }
+            }
+        },
+        "ObjectiveId": {
+            "bsonType": "string"
+        },
+        "ObjectiveStatus": {
+            "bsonType": "string"
+        },
+        "ObjectiveStatusId": {
+            "bsonType": "long"
+        },
+        "OppStatus": {
+            "bsonType": "string"
+        },
+        "POD": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "ProgramProduct": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AppellationCode": {
+                        "bsonType": "string"
+                    },
+                    "AppellationName": {
+                        "bsonType": "string"
+                    },
+                    "BrandCode": {
+                        "bsonType": "string"
+                    },
+                    "BrandName": {
+                        "bsonType": "string"
+                    },
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "FeatureTypeCode": {
+                        "bsonType": "string"
+                    },
+                    "FeatureTypeDesc": {
+                        "bsonType": "string"
+                    },
+                    "FlavorCode": {
+                        "bsonType": "string"
+                    },
+                    "FlavorName": {
+                        "bsonType": "string"
+                    },
+                    "GoalValue": {
+                        "bsonType": "double"
+                    },
+                    "IsCases": {
+                        "bsonType": "string"
+                    },
+                    "LobCode": {
+                        "bsonType": "string"
+                    },
+                    "LobName": {
+                        "bsonType": "string"
+                    },
+                    "PrdSeqNo": {
+                        "bsonType": "int"
+                    },
+                    "PromoTypeCode": {
+                        "bsonType": "string"
+                    },
+                    "PromoTypeDesc": {
+                        "bsonType": "string"
+                    },
+                    "SizeCode": {
+                        "bsonType": "string"
+                    },
+                    "SizeName": {
+                        "bsonType": "string"
+                    },
+                    "SupplierCode": {
+                        "bsonType": "string"
+                    },
+                    "SupplierName": {
+                        "bsonType": "string"
+                    },
+                    "UPCCode": {
+                        "bsonType": "string"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    }
+                }
+            }
+        },
+        "ProgramUOM": {
+            "bsonType": "string"
+        },
+        "SKUCount": {
+            "bsonType": "double"
+        },
+        "StatusId": {
+            "bsonType": "int"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_ExecutedPersistentObjective"
+}

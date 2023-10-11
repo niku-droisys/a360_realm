@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "ChildRoleCode": {
+            "bsonType": "string"
+        },
+        "ChildRoleDesc": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "IsPush": {
+            "bsonType": "bool"
+        },
+        "IsReadOnly": {
+            "bsonType": "bool"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserRoleCode": {
+            "bsonType": "string"
+        },
+        "UserRoleDesc": {
+            "bsonType": "string"
+        },
+        "UserType": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_RoleMapping"
+}

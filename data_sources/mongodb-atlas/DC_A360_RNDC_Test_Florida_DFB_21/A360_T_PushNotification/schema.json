@@ -1,0 +1,61 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "int"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "IsNotificationSent": {
+            "bsonType": "bool"
+        },
+        "NotificationId": {
+            "bsonType": "string"
+        },
+        "NotificationMessage": {
+            "bsonType": "string"
+        },
+        "NotificationMetaData": {
+            "bsonType": "string"
+        },
+        "NotificationType": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "ClientCode": {
+                        "bsonType": "long"
+                    },
+                    "UserCode": {
+                        "bsonType": "long"
+                    },
+                    "UserEmail": {
+                        "bsonType": "string"
+                    },
+                    "UserName": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_PushNotification"
+}

@@ -1,0 +1,104 @@
+{
+    "properties": {
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DocumentType": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsRecordProcessedToday": {
+            "bsonType": "int"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "absDisplayImageUrl": {
+            "bsonType": "string"
+        },
+        "absGeeLogoURL": {
+            "bsonType": "string"
+        },
+        "absUrl": {
+            "bsonType": "string"
+        },
+        "assetType": {
+            "bsonType": "string"
+        },
+        "brandId": {
+            "bsonType": "string"
+        },
+        "brandName": {
+            "bsonType": "string"
+        },
+        "bu": {
+            "bsonType": "string"
+        },
+        "channel": {
+            "bsonType": "string"
+        },
+        "channelDescription": {
+            "bsonType": "string"
+        },
+        "channelMatchCode": {
+            "bsonType": "string"
+        },
+        "contentId": {
+            "bsonType": "string"
+        },
+        "contentType": {
+            "bsonType": "string"
+        },
+        "gatewayServicesToken": {
+            "bsonType": "string"
+        },
+        "gchAssetId": {
+            "bsonType": "string"
+        },
+        "gchFileName": {
+            "bsonType": "string"
+        },
+        "itemTypeDescription": {
+            "bsonType": "string"
+        },
+        "lowResUrl": {
+            "bsonType": "string"
+        },
+        "posId": {
+            "bsonType": "string"
+        },
+        "prioritySequence": {
+            "bsonType": "string"
+        },
+        "productType": {
+            "bsonType": "string"
+        },
+        "programId": {
+            "bsonType": "string"
+        },
+        "programName": {
+            "bsonType": "string"
+        },
+        "title": {
+            "bsonType": "string"
+        }
+    },
+    "title": "A360_M_SalesMaterial"
+}

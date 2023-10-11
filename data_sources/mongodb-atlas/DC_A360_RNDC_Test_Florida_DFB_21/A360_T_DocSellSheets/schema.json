@@ -1,0 +1,104 @@
+{
+    "properties": {
+        "AddedDatetime": {
+            "bsonType": "date"
+        },
+        "BatchID": {
+            "bsonType": "string"
+        },
+        "BrandCode": {
+            "bsonType": "string"
+        },
+        "BrandID": {
+            "bsonType": "objectId"
+        },
+        "BrandName": {
+            "bsonType": "string"
+        },
+        "CHN_ACTN_ID": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "DocSellSheetStatusId": {
+            "bsonType": "long"
+        },
+        "DocumentID": {
+            "bsonType": "objectId"
+        },
+        "DocumentName": {
+            "bsonType": "string"
+        },
+        "DocumentType": {
+            "bsonType": "string"
+        },
+        "DocumentTypeID": {
+            "bsonType": "long"
+        },
+        "DocumentURL": {
+            "bsonType": "string"
+        },
+        "Email": {
+            "bsonType": "string"
+        },
+        "FileExtention": {
+            "bsonType": "string"
+        },
+        "FileType": {
+            "bsonType": "string"
+        },
+        "FileTypeId": {
+            "bsonType": "long"
+        },
+        "Filesize": {
+            "bsonType": "string"
+        },
+        "GalloDocumentID": {
+            "bsonType": "objectId"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "LoadedDate": {
+            "bsonType": "date"
+        },
+        "OpportunityID": {
+            "bsonType": "objectId"
+        },
+        "OrderNo": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_DocSellSheet"
+}

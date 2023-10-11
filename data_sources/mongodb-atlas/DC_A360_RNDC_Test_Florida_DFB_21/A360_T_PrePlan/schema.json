@@ -1,0 +1,65 @@
+{
+    "properties": {
+        "BranchId": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "EndTime": {
+            "bsonType": "date"
+        },
+        "IsAccountDeleted": {
+            "bsonType": "bool"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "OppportunityID": {
+            "bsonType": "string"
+        },
+        "OrderNo": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PrePlanDate": {
+            "bsonType": "date"
+        },
+        "PreplanStatusId": {
+            "bsonType": "long"
+        },
+        "StartTime": {
+            "bsonType": "date"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_PrePlan"
+}

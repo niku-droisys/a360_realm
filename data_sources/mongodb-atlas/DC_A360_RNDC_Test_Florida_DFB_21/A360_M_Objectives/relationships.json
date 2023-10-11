@@ -1,0 +1,8 @@
+{
+    "ObjectiveDocList": {
+        "ref": "#/relationship/mongodb-atlas/DC_A360_RNDC_Test_Florida_DFB_21/A360_T_ObjectiveDocuments",
+        "source_key": "ObjectiveDocList",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "properties": {
+        "ActiveFrom": {
+            "bsonType": "date"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "LabelId": {
+            "bsonType": "int"
+        },
+        "LabelName": {
+            "bsonType": "string"
+        },
+        "LabelStatusId": {
+            "bsonType": "int"
+        },
+        "LabelText": {
+            "bsonType": "string"
+        },
+        "ModuleCode": {
+            "bsonType": "int"
+        },
+        "PageName": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_Label"
+}

@@ -1,0 +1,26 @@
+{
+    "properties": {
+        "BrandEligibilityId": {
+            "bsonType": "int"
+        },
+        "BrandList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "EligibilityMappingStatusId": {
+            "bsonType": "int"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_BrandEligibilityMapping_V1"
+}

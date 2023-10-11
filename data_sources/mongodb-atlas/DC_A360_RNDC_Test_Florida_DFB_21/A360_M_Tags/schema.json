@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "BranchCode": {
+            "bsonType": "int"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "Tag": {
+            "bsonType": "string"
+        },
+        "TagDescription": {
+            "bsonType": "string"
+        },
+        "TagId": {
+            "bsonType": "int"
+        },
+        "TagStatusId": {
+            "bsonType": "long"
+        },
+        "TagType": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_Tag"
+}

@@ -1,0 +1,212 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedByUser": {
+            "bsonType": "string"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "SurveyStatusId": {
+            "bsonType": "long"
+        },
+        "SurveyType": {
+            "bsonType": "object",
+            "properties": {
+                "LstSpiritSurveyBrand": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "AppletionCode": {
+                                "bsonType": "string"
+                            },
+                            "AppletionName": {
+                                "bsonType": "string"
+                            },
+                            "BrandCode": {
+                                "bsonType": "string"
+                            },
+                            "BrandName": {
+                                "bsonType": "string"
+                            },
+                            "Category": {
+                                "bsonType": "string"
+                            },
+                            "FlavorCode": {
+                                "bsonType": "string"
+                            },
+                            "FlavorName": {
+                                "bsonType": "string"
+                            },
+                            "GalloCompetitorID": {
+                                "bsonType": "int"
+                            },
+                            "IsBOH": {
+                                "bsonType": "bool"
+                            },
+                            "IsBOHWell": {
+                                "bsonType": "bool"
+                            },
+                            "IsBackbar": {
+                                "bsonType": "bool"
+                            },
+                            "IsCocktail": {
+                                "bsonType": "bool"
+                            },
+                            "IsDistribution": {
+                                "bsonType": "bool"
+                            },
+                            "IsEquityPOS": {
+                                "bsonType": "bool"
+                            },
+                            "IsGatekeeper": {
+                                "bsonType": "bool"
+                            },
+                            "IsGkSt": {
+                                "bsonType": "bool"
+                            },
+                            "IsInPrint": {
+                                "bsonType": "bool"
+                            },
+                            "IsListing": {
+                                "bsonType": "bool"
+                            },
+                            "IsSignatureCocktail": {
+                                "bsonType": "bool"
+                            },
+                            "IsStaffTraining": {
+                                "bsonType": "bool"
+                            },
+                            "IsWell": {
+                                "bsonType": "bool"
+                            },
+                            "SizeCode": {
+                                "bsonType": "string"
+                            },
+                            "SizeName": {
+                                "bsonType": "string"
+                            },
+                            "Varietal": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "LstWineSurveyBrand": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "AppletionCode": {
+                                "bsonType": "string"
+                            },
+                            "AppletionName": {
+                                "bsonType": "string"
+                            },
+                            "BrandCode": {
+                                "bsonType": "string"
+                            },
+                            "BrandName": {
+                                "bsonType": "string"
+                            },
+                            "Category": {
+                                "bsonType": "string"
+                            },
+                            "FlavorCode": {
+                                "bsonType": "string"
+                            },
+                            "FlavorName": {
+                                "bsonType": "string"
+                            },
+                            "GalloCompetitorID": {
+                                "bsonType": "int"
+                            },
+                            "IsBOH": {
+                                "bsonType": "bool"
+                            },
+                            "IsBTB": {
+                                "bsonType": "bool"
+                            },
+                            "IsBTG": {
+                                "bsonType": "bool"
+                            },
+                            "IsColdBox": {
+                                "bsonType": "bool"
+                            },
+                            "IsDistribution": {
+                                "bsonType": "bool"
+                            },
+                            "IsEquityPOS": {
+                                "bsonType": "bool"
+                            },
+                            "IsGatekeeper": {
+                                "bsonType": "bool"
+                            },
+                            "IsGkSt": {
+                                "bsonType": "bool"
+                            },
+                            "IsInPrint": {
+                                "bsonType": "bool"
+                            },
+                            "IsPricing": {
+                                "bsonType": "bool"
+                            },
+                            "IsShelf": {
+                                "bsonType": "bool"
+                            },
+                            "IsStaffTraining": {
+                                "bsonType": "bool"
+                            },
+                            "IsVisibility": {
+                                "bsonType": "bool"
+                            },
+                            "SizeCode": {
+                                "bsonType": "string"
+                            },
+                            "SizeName": {
+                                "bsonType": "string"
+                            },
+                            "Varietal": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "StandardID": {
+                    "bsonType": "int"
+                },
+                "StandardName": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedByUser": {
+            "bsonType": "string"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_SubmittedSurvey"
+}

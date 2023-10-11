@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "int"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "IsAuditPending": {
+            "bsonType": "bool"
+        },
+        "IsDismissed": {
+            "bsonType": "bool"
+        },
+        "IsPending": {
+            "bsonType": "bool"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "RemindMeLater": {
+            "bsonType": "bool"
+        },
+        "SnoozeDateTime": {
+            "bsonType": "date"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_UserAccountAuditAlertInfo"
+}

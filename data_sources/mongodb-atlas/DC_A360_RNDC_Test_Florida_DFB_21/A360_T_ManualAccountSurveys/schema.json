@@ -1,0 +1,77 @@
+{
+    "properties": {
+        "AppletionCode": {
+            "bsonType": "string"
+        },
+        "AppletionName": {
+            "bsonType": "string"
+        },
+        "BrandCode": {
+            "bsonType": "string"
+        },
+        "BrandName": {
+            "bsonType": "string"
+        },
+        "Category": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "FlavorCode": {
+            "bsonType": "string"
+        },
+        "FlavorName": {
+            "bsonType": "string"
+        },
+        "GalloCompetitorID": {
+            "bsonType": "long"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "MSurveyStatusId": {
+            "bsonType": "long"
+        },
+        "OrganizationID": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "SizeCode": {
+            "bsonType": "string"
+        },
+        "SizeName": {
+            "bsonType": "string"
+        },
+        "StandardID": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "Varietal": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_ManualAccountSurvey"
+}

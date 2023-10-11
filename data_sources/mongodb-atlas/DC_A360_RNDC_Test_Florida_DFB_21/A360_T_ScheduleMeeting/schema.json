@@ -1,0 +1,64 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "EndTime": {
+            "bsonType": "date"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "LstAttendees": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Email": {
+                        "bsonType": "string"
+                    },
+                    "UserCode": {
+                        "bsonType": "long"
+                    }
+                }
+            }
+        },
+        "MeetingDescription": {
+            "bsonType": "string"
+        },
+        "MeetingTitle": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "StartTime": {
+            "bsonType": "date"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_ScheduleMeeting"
+}

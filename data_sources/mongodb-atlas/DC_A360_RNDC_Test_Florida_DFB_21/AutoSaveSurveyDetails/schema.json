@@ -1,0 +1,21 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "IsDraft": {
+            "bsonType": "bool"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "questionId": {
+            "bsonType": "string"
+        },
+        "questionString": {
+            "bsonType": "string"
+        }
+    },
+    "title": "AutoSaveSurveyDetails"
+}

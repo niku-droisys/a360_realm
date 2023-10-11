@@ -1,0 +1,58 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "int"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "RouteAccountId": {
+            "bsonType": "int"
+        },
+        "RouteAccountStatusId": {
+            "bsonType": "int"
+        },
+        "RouteId": {
+            "bsonType": "int"
+        },
+        "RouteName": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_RouteAccount"
+}

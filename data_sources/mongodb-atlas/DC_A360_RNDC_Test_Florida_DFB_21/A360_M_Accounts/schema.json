@@ -1,0 +1,677 @@
+{
+    "properties": {
+        "AcccountPhone": {
+            "bsonType": "string"
+        },
+        "AccountDepletion": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "CY_12M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "CY_4M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "CY_6M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "CY_LMO": {
+                        "bsonType": "double"
+                    },
+                    "CY_MTD": {
+                        "bsonType": "double"
+                    },
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "IsActive": {
+                        "bsonType": "bool"
+                    },
+                    "PY_12M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "PY_4M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "PY_6M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "PY_LMO": {
+                        "bsonType": "double"
+                    },
+                    "PY_MTD": {
+                        "bsonType": "double"
+                    },
+                    "RTL_ACCT_ID": {
+                        "bsonType": "string"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    },
+                    "_id": {
+                        "bsonType": "objectId"
+                    }
+                }
+            }
+        },
+        "AccountDepletionV1": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AccountDepletionId": {
+                        "bsonType": "int"
+                    },
+                    "CY_12M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "CY_4M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "CY_6M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "CY_LMO": {
+                        "bsonType": "double"
+                    },
+                    "CY_MTD": {
+                        "bsonType": "double"
+                    },
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "CurrentYearLast26Weeks": {
+                        "bsonType": "double"
+                    },
+                    "CurrentYearLast4Weeks": {
+                        "bsonType": "double"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "DepletionType": {
+                        "bsonType": "string"
+                    },
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    },
+                    "IsActive": {
+                        "bsonType": "bool"
+                    },
+                    "PY_12M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "PY_4M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "PY_6M_DEPL": {
+                        "bsonType": "double"
+                    },
+                    "PY_LMO": {
+                        "bsonType": "double"
+                    },
+                    "PY_MTD": {
+                        "bsonType": "double"
+                    },
+                    "PreviousYearLast26Weeks": {
+                        "bsonType": "double"
+                    },
+                    "PreviousYearLast4Weeks": {
+                        "bsonType": "double"
+                    },
+                    "RTL_ACCT_ID": {
+                        "bsonType": "string"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    },
+                    "_id": {
+                        "bsonType": "objectId"
+                    }
+                }
+            }
+        },
+        "AccountDescription": {
+            "bsonType": "string"
+        },
+        "AccountDocumentMappingList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "AccountId": {
+            "bsonType": "string"
+        },
+        "AccountIdList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "AccountName": {
+            "bsonType": "string"
+        },
+        "AccountNotesList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "AccountRoleList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "RoleGroup": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "DivisionCode": {
+                                    "bsonType": "int"
+                                },
+                                "DivisionName": {
+                                    "bsonType": "string"
+                                },
+                                "RoleCode": {
+                                    "bsonType": "long"
+                                },
+                                "RoleId": {
+                                    "bsonType": "long"
+                                },
+                                "RoleName": {
+                                    "bsonType": "string"
+                                },
+                                "UserCode": {
+                                    "bsonType": "long"
+                                },
+                                "UserName": {
+                                    "bsonType": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "AccountRoleListV1": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "RoleGroup": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "DivisionCode": {
+                                    "bsonType": "int"
+                                },
+                                "DivisionName": {
+                                    "bsonType": "string"
+                                },
+                                "ManagerCode": {
+                                    "bsonType": "long"
+                                },
+                                "ManagerName": {
+                                    "bsonType": "string"
+                                },
+                                "ManagerRoleId": {
+                                    "bsonType": "long"
+                                },
+                                "RoleCode": {
+                                    "bsonType": "long"
+                                },
+                                "RoleId": {
+                                    "bsonType": "long"
+                                },
+                                "RoleName": {
+                                    "bsonType": "string"
+                                },
+                                "RoleRank": {
+                                    "bsonType": "long"
+                                },
+                                "RouteName": {
+                                    "bsonType": "string"
+                                },
+                                "UserCode": {
+                                    "bsonType": "long"
+                                },
+                                "UserEmail": {
+                                    "bsonType": "string"
+                                },
+                                "UserName": {
+                                    "bsonType": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "AccountStatus": {
+            "bsonType": "int"
+        },
+        "AccountTypeName": {
+            "bsonType": "string"
+        },
+        "Address1": {
+            "bsonType": "string"
+        },
+        "Address2": {
+            "bsonType": "string"
+        },
+        "Banner": {
+            "bsonType": "int"
+        },
+        "BeerCluster": {
+            "bsonType": "string"
+        },
+        "BranchId": {
+            "bsonType": "string"
+        },
+        "BranchName": {
+            "bsonType": "string"
+        },
+        "Channel": {
+            "bsonType": "string"
+        },
+        "City": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "ClientName": {
+            "bsonType": "string"
+        },
+        "Contacts": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Contacts": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "ContactFor": {
+                                    "bsonType": "long"
+                                },
+                                "Email": {
+                                    "bsonType": "string"
+                                },
+                                "Phone": {
+                                    "bsonType": "string"
+                                }
+                            },
+                            "required": [],
+                            "title": "A360_M_Account_Contacts_Contacts"
+                        }
+                    },
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "FirstName": {
+                        "bsonType": "string"
+                    },
+                    "IsActive": {
+                        "bsonType": "bool"
+                    },
+                    "IsPrimary": {
+                        "bsonType": "bool"
+                    },
+                    "IsSyncRecord": {
+                        "bsonType": "long"
+                    },
+                    "LastName": {
+                        "bsonType": "string"
+                    },
+                    "Note": {
+                        "bsonType": "string"
+                    },
+                    "Role": {
+                        "bsonType": "string"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    },
+                    "_id": {
+                        "bsonType": "objectId"
+                    }
+                }
+            }
+        },
+        "Country": {
+            "bsonType": "string"
+        },
+        "County": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DistributorAccountId": {
+            "bsonType": "string"
+        },
+        "DivisionList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "GeoLocation": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "double"
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "ImageURL": {
+            "bsonType": "string"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "KeyAcctCorp": {
+            "bsonType": "string"
+        },
+        "KeyAcctDBA": {
+            "bsonType": "string"
+        },
+        "KeyAcctDivision": {
+            "bsonType": "string"
+        },
+        "Latitude": {
+            "bsonType": "double"
+        },
+        "LicenceType": {
+            "bsonType": "string"
+        },
+        "LiquorCluster": {
+            "bsonType": "string"
+        },
+        "Longitude": {
+            "bsonType": "double"
+        },
+        "ManualAccountSurveyList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "ObjectivesList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "ObjectivesListV1": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PhotoTagList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "PhotoTagId": {
+                        "bsonType": "long"
+                    },
+                    "TagName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "PhotoTagList"
+            }
+        },
+        "PrimaryAccountContact": {
+            "bsonType": "string"
+        },
+        "PrimaryAccountId": {
+            "bsonType": "long"
+        },
+        "PrimaryAccountName": {
+            "bsonType": "string"
+        },
+        "PrimaryContactEmail": {
+            "bsonType": "string"
+        },
+        "PrimaryContactMobile": {
+            "bsonType": "string"
+        },
+        "PrimaryContactName": {
+            "bsonType": "string"
+        },
+        "PrimaryContactPhone": {
+            "bsonType": "string"
+        },
+        "PrimaryContactRole": {
+            "bsonType": "string"
+        },
+        "RouteList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        },
+        "SalesType": {
+            "bsonType": "int"
+        },
+        "ScheduleDays": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    },
+                    "IsLoadFriday": {
+                        "bsonType": "bool"
+                    },
+                    "IsLoadMonday": {
+                        "bsonType": "bool"
+                    },
+                    "IsLoadSaturday": {
+                        "bsonType": "bool"
+                    },
+                    "IsLoadSunday": {
+                        "bsonType": "bool"
+                    },
+                    "IsLoadThursday": {
+                        "bsonType": "bool"
+                    },
+                    "IsLoadTuesday": {
+                        "bsonType": "bool"
+                    },
+                    "IsLoadWednesday": {
+                        "bsonType": "bool"
+                    },
+                    "IsOrderFriday": {
+                        "bsonType": "bool"
+                    },
+                    "IsOrderMonday": {
+                        "bsonType": "bool"
+                    },
+                    "IsOrderSaturday": {
+                        "bsonType": "bool"
+                    },
+                    "IsOrderSunday": {
+                        "bsonType": "bool"
+                    },
+                    "IsOrderThursday": {
+                        "bsonType": "bool"
+                    },
+                    "IsOrderTuesday": {
+                        "bsonType": "bool"
+                    },
+                    "IsOrderWednesday": {
+                        "bsonType": "bool"
+                    },
+                    "IsSyncRecord": {
+                        "bsonType": "long"
+                    },
+                    "ScheduleName": {
+                        "bsonType": "string"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    }
+                },
+                "required": [],
+                "title": "A360_M_Account_ScheduleDays"
+            }
+        },
+        "SocialMediaLinks": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "IsActive": {
+                        "bsonType": "bool"
+                    },
+                    "IsSyncRecord": {
+                        "bsonType": "long"
+                    },
+                    "SocialMediaLink": {
+                        "bsonType": "string"
+                    },
+                    "SocialMediaName": {
+                        "bsonType": "string"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    }
+                }
+            }
+        },
+        "State": {
+            "bsonType": "string"
+        },
+        "SubmitSurveyList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "TagList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "TagId": {
+                        "bsonType": "long"
+                    },
+                    "TagName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "TagList"
+            }
+        },
+        "ThumbnailURL": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "WineCluster": {
+            "bsonType": "string"
+        },
+        "ZipCode": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_Account"
+}

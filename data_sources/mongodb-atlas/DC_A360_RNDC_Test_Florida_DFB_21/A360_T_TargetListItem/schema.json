@@ -1,0 +1,65 @@
+{
+    "properties": {
+        "AccountName": {
+            "bsonType": "string"
+        },
+        "Address1": {
+            "bsonType": "string"
+        },
+        "City": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "County": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DistributorAccountId": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "State": {
+            "bsonType": "string"
+        },
+        "TargetListID": {
+            "bsonType": "objectId"
+        },
+        "TargetStatusId": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "Zip": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_TargetListItem"
+}

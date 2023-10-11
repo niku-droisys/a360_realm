@@ -1,0 +1,133 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "AccountList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AccountName": {
+                        "bsonType": "string"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "A360_Local_AccountNote_AccountList"
+            }
+        },
+        "BranchCode": {
+            "bsonType": "int"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "long"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "DocumentURLs": {
+            "bsonType": "string"
+        },
+        "FlaggedUserList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "ClientCode": {
+                        "bsonType": "long"
+                    },
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "IsSyncRecord": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    },
+                    "UserCode": {
+                        "bsonType": "long"
+                    },
+                    "UserContactId": {
+                        "bsonType": "string"
+                    },
+                    "UserEmail": {
+                        "bsonType": "string"
+                    },
+                    "UserName": {
+                        "bsonType": "string"
+                    },
+                    "UserRole": {
+                        "bsonType": "string"
+                    },
+                    "UserType": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "A360_T_AccountNote_FlaggedUserList_Local"
+            }
+        },
+        "ListNoteDocuments": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DocumentURL": {
+                        "bsonType": "string"
+                    },
+                    "PhotoTagList": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "PhotoTagId": {
+                                    "bsonType": "long"
+                                },
+                                "TagName": {
+                                    "bsonType": "string"
+                                }
+                            },
+                            "required": [],
+                            "title": "PhotoTagList"
+                        }
+                    }
+                },
+                "required": [],
+                "title": "A360_Local_AccountNote_ListNoteDocuments"
+            }
+        },
+        "NoteStatusId": {
+            "bsonType": "long"
+        },
+        "Notes": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_Local_AccountNote"
+}

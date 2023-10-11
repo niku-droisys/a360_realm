@@ -1,0 +1,220 @@
+{
+    "properties": {
+        "AdhocOpportunityID": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "ClientObjectiveId": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedByUser": {
+            "bsonType": "string"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "CreatedDesignation": {
+            "bsonType": "string"
+        },
+        "CreatedFrom": {
+            "bsonType": "string"
+        },
+        "DataSourceFrom": {
+            "bsonType": "long"
+        },
+        "DisplayDate": {
+            "bsonType": "date"
+        },
+        "DisplayType": {
+            "bsonType": "string"
+        },
+        "EndDate": {
+            "bsonType": "date"
+        },
+        "GoalExecMetric": {
+            "bsonType": "int"
+        },
+        "GoalExecMetricVal": {
+            "bsonType": "int"
+        },
+        "GoalId": {
+            "bsonType": "string"
+        },
+        "GoalMetric": {
+            "bsonType": "string"
+        },
+        "IncentiveAvailableCode": {
+            "bsonType": "string"
+        },
+        "IncentiveAvailableDesc": {
+            "bsonType": "string"
+        },
+        "IncentiveCapMetricCode": {
+            "bsonType": "string"
+        },
+        "IncentiveCapMetricCode2": {
+            "bsonType": "string"
+        },
+        "IncentiveCapMetricDesc": {
+            "bsonType": "string"
+        },
+        "IncentiveCapMetricDesc2": {
+            "bsonType": "string"
+        },
+        "IncentiveCapValue": {
+            "bsonType": "string"
+        },
+        "IncentiveGoalVerification": {
+            "bsonType": "string"
+        },
+        "IncentiveMetricCode": {
+            "bsonType": "string"
+        },
+        "IncentiveMetricDesc": {
+            "bsonType": "string"
+        },
+        "IncentivePayouts": {
+            "bsonType": "double"
+        },
+        "IncentiveQualifier": {
+            "bsonType": "double"
+        },
+        "IncentiveValue": {
+            "bsonType": "string"
+        },
+        "IncentiveVerCode": {
+            "bsonType": "string"
+        },
+        "IncentiveVerDesc": {
+            "bsonType": "string"
+        },
+        "IsOnGoing": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "ObjectiveDescription": {
+            "bsonType": "string"
+        },
+        "ObjectiveDocList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "ObjectiveId": {
+            "bsonType": "long"
+        },
+        "ObjectiveName": {
+            "bsonType": "string"
+        },
+        "ObjectiveType": {
+            "bsonType": "string"
+        },
+        "OppImportType": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PlannerID": {
+            "bsonType": "long"
+        },
+        "ProgramID": {
+            "bsonType": "long"
+        },
+        "ProgramProduct": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AppellationCode": {
+                        "bsonType": "string"
+                    },
+                    "AppellationName": {
+                        "bsonType": "string"
+                    },
+                    "BrandCode": {
+                        "bsonType": "string"
+                    },
+                    "BrandName": {
+                        "bsonType": "string"
+                    },
+                    "FlavorCode": {
+                        "bsonType": "string"
+                    },
+                    "FlavorName": {
+                        "bsonType": "string"
+                    },
+                    "LobCode": {
+                        "bsonType": "string"
+                    },
+                    "LobName": {
+                        "bsonType": "string"
+                    },
+                    "SizeCode": {
+                        "bsonType": "string"
+                    },
+                    "SizeName": {
+                        "bsonType": "string"
+                    },
+                    "SupplierCode": {
+                        "bsonType": "string"
+                    },
+                    "SupplierName": {
+                        "bsonType": "string"
+                    },
+                    "UPCCode": {
+                        "bsonType": "string"
+                    },
+                    "_id": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "ProgramType": {
+            "bsonType": "int"
+        },
+        "ProgramUnits": {
+            "bsonType": "double"
+        },
+        "PromoPriorityDesc": {
+            "bsonType": "string"
+        },
+        "PromoPriorityID": {
+            "bsonType": "double"
+        },
+        "StartDate": {
+            "bsonType": "date"
+        },
+        "StatusId": {
+            "bsonType": "int"
+        },
+        "SupplierKPIIdentifier": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserRoleCode": {
+            "bsonType": "string"
+        },
+        "UserRoleDesc": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_Objective"
+}

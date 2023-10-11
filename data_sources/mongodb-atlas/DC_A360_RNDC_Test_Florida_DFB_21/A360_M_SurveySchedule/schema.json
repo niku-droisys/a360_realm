@@ -1,0 +1,53 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PublishDescription": {
+            "bsonType": "string"
+        },
+        "PublishName": {
+            "bsonType": "string"
+        },
+        "StatusId": {
+            "bsonType": "int"
+        },
+        "SurveyCode": {
+            "bsonType": "string"
+        },
+        "SurveyDescription": {
+            "bsonType": "string"
+        },
+        "SurveyId": {
+            "bsonType": "int"
+        },
+        "SurveyJSON": {
+            "bsonType": "string"
+        },
+        "SurveyName": {
+            "bsonType": "string"
+        },
+        "SurveyScheduleId": {
+            "bsonType": "int"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_SurveySchedule"
+}

@@ -1,0 +1,125 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "AccountName": {
+            "bsonType": "string"
+        },
+        "AccountNumber": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "string"
+        },
+        "CreatedDate": {
+            "bsonType": "string"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "FirstName": {
+            "bsonType": "string"
+        },
+        "IsRead": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "LastName": {
+            "bsonType": "string"
+        },
+        "ListLinkedAccount": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AccountName": {
+                        "bsonType": "string"
+                    },
+                    "Address1": {
+                        "bsonType": "string"
+                    },
+                    "AuditID": {
+                        "bsonType": "string"
+                    },
+                    "City": {
+                        "bsonType": "string"
+                    },
+                    "Country": {
+                        "bsonType": "string"
+                    },
+                    "County": {
+                        "bsonType": "string"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "DistributorAccountId": {
+                        "bsonType": "string"
+                    },
+                    "State": {
+                        "bsonType": "string"
+                    },
+                    "Zip": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "ListLinkedAccount"
+            }
+        },
+        "MarketCode": {
+            "bsonType": "string"
+        },
+        "MessageParameters": {
+            "bsonType": "string"
+        },
+        "NotificationAction": {
+            "bsonType": "long"
+        },
+        "NotificationMessage": {
+            "bsonType": "string"
+        },
+        "NotificationScreenUsed": {
+            "bsonType": "long"
+        },
+        "NotificationType": {
+            "bsonType": "long"
+        },
+        "OpportunityName": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "SalesRoute": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "string"
+        },
+        "UpdatedDate": {
+            "bsonType": "string"
+        },
+        "UserID": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "NotificationType",
+        "NotificationAction",
+        "NotificationScreenUsed",
+        "IsSyncRecord",
+        "IsRead"
+    ],
+    "title": "A360R_Notification"
+}

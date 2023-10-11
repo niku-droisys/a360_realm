@@ -1,0 +1,15 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "jsonString": {
+            "bsonType": "string"
+        }
+    },
+    "title": "A360R_ActivityLogModel"
+}

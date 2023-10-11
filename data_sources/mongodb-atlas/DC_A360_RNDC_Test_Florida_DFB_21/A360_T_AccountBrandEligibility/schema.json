@@ -1,0 +1,61 @@
+{
+    "properties": {
+        "AccountBrandEligibilityId": {
+            "bsonType": "int"
+        },
+        "BrandCode": {
+            "bsonType": "string"
+        },
+        "BrandEligibilityId": {
+            "bsonType": "int"
+        },
+        "BrandEligibilityStatusId": {
+            "bsonType": "int"
+        },
+        "ClientCode": {
+            "bsonType": "int"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "EligibilityName": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_AccountBrandEligibility"
+}

@@ -1,0 +1,159 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "int"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DisplayDate": {
+            "bsonType": "date"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "EndDate": {
+            "bsonType": "date"
+        },
+        "ExecutedByName": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsDraft": {
+            "bsonType": "bool"
+        },
+        "IsGoingOn": {
+            "bsonType": "bool"
+        },
+        "IsSaveAsDraft": {
+            "bsonType": "bool"
+        },
+        "IsSynced": {
+            "bsonType": "int"
+        },
+        "IsTaskShared": {
+            "bsonType": "bool"
+        },
+        "NoteList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "Notes": {
+                        "bsonType": "string"
+                    },
+                    "SubmittedBy": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "A360_T_TaskNoteList",
+                "type": "object"
+            }
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PublishDescription": {
+            "bsonType": "string"
+        },
+        "PublishName": {
+            "bsonType": "string"
+        },
+        "RespondedByEmail": {
+            "bsonType": "string"
+        },
+        "RespondedByUserName": {
+            "bsonType": "string"
+        },
+        "RespondedByUserRoleCode": {
+            "bsonType": "int"
+        },
+        "RespondedByUserRoleName": {
+            "bsonType": "string"
+        },
+        "ResponseCode": {
+            "bsonType": "string"
+        },
+        "ResponseId": {
+            "bsonType": "int"
+        },
+        "SharedEmail": {
+            "bsonType": "string"
+        },
+        "SortOrder": {
+            "bsonType": "int"
+        },
+        "StartDate": {
+            "bsonType": "date"
+        },
+        "StatusId": {
+            "bsonType": "int"
+        },
+        "TaskManagerCode": {
+            "bsonType": "string"
+        },
+        "TaskManagerDescription": {
+            "bsonType": "string"
+        },
+        "TaskManagerId": {
+            "bsonType": "int"
+        },
+        "TaskManagerJSON": {
+            "bsonType": "string"
+        },
+        "TaskManagerName": {
+            "bsonType": "string"
+        },
+        "TaskManagerScheduleAccountId": {
+            "bsonType": "int"
+        },
+        "TaskManagerScheduleId": {
+            "bsonType": "int"
+        },
+        "TaskManagerStatusId": {
+            "bsonType": "int"
+        },
+        "TenantCode": {
+            "bsonType": "long"
+        },
+        "TotalNoOfAns": {
+            "bsonType": "int"
+        },
+        "TotalNoOfQtns": {
+            "bsonType": "int"
+        },
+        "TypeCode": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "isSaveASDraft": {
+            "bsonType": "bool"
+        }
+    },
+    "title": "A360_M_TaskManagerSchedule"
+}

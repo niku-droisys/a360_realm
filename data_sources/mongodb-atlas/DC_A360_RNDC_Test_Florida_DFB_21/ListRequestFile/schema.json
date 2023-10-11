@@ -1,0 +1,33 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DisplayFileName": {
+            "bsonType": "string"
+        },
+        "DocumentId": {
+            "bsonType": "objectId"
+        },
+        "IsThumbImage": {
+            "bsonType": "bool"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UniqueFileName": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "DisplayFileName",
+        "UniqueFileName",
+        "IsThumbImage"
+    ],
+    "title": "ListRequestFile"
+}

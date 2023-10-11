@@ -1,0 +1,58 @@
+{
+    "properties": {
+        "BrandEligibilityDescription": {
+            "bsonType": "string"
+        },
+        "BrandEligibilityId": {
+            "bsonType": "int"
+        },
+        "BrandEligibilityName": {
+            "bsonType": "string"
+        },
+        "BrandEligibilityQuery": {
+            "bsonType": "string"
+        },
+        "BrandEligibilityStatusId": {
+            "bsonType": "int"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DivisionList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "LinkedBrandCount": {
+            "bsonType": "int"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_BrandEligibility"
+}

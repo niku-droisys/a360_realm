@@ -1,0 +1,59 @@
+{
+    "properties": {
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "OnPremiseType": {
+            "bsonType": "string"
+        },
+        "OnPremiseTypeID": {
+            "bsonType": "int"
+        },
+        "OpportunityTypeID": {
+            "bsonType": "int"
+        },
+        "Order": {
+            "bsonType": "int"
+        },
+        "OrganizationID": {
+            "bsonType": "objectId"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "SalesType": {
+            "bsonType": "int"
+        },
+        "SalesTypeName": {
+            "bsonType": "string"
+        },
+        "ShortName": {
+            "bsonType": "string"
+        },
+        "StandardCategoryName": {
+            "bsonType": "string"
+        },
+        "StandardID": {
+            "bsonType": "int"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_StandardCategory"
+}

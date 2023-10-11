@@ -1,0 +1,690 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "Comment": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsAddToPrePlan": {
+            "bsonType": "bool"
+        },
+        "IsEditable": {
+            "bsonType": "bool"
+        },
+        "IsRecordExecuted": {
+            "bsonType": "bool"
+        },
+        "IsRecordExecutedAt": {
+            "bsonType": "date"
+        },
+        "IsRecordPicked": {
+            "bsonType": "bool"
+        },
+        "IsRecordPickedAt": {
+            "bsonType": "date"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "IsUnlinkAll": {
+            "bsonType": "bool"
+        },
+        "ListLinkedAccount": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AccountName": {
+                        "bsonType": "string"
+                    },
+                    "Address1": {
+                        "bsonType": "string"
+                    },
+                    "City": {
+                        "bsonType": "string"
+                    },
+                    "ClientCode": {
+                        "bsonType": "long"
+                    },
+                    "Country": {
+                        "bsonType": "string"
+                    },
+                    "County": {
+                        "bsonType": "string"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "DistributorAccountId": {
+                        "bsonType": "string"
+                    },
+                    "PartitionKey": {
+                        "bsonType": "string"
+                    },
+                    "State": {
+                        "bsonType": "string"
+                    },
+                    "Zip": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "ListOpportunityDocument": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "AdhocOpportunityID": {
+                        "bsonType": "string"
+                    },
+                    "BatchID": {
+                        "bsonType": "string"
+                    },
+                    "BrandCode": {
+                        "bsonType": "string"
+                    },
+                    "BrandName": {
+                        "bsonType": "string"
+                    },
+                    "CategoryCode": {
+                        "bsonType": "long"
+                    },
+                    "ClientCode": {
+                        "bsonType": "long"
+                    },
+                    "CreatedBy": {
+                        "bsonType": "long"
+                    },
+                    "CreatedDate": {
+                        "bsonType": "date"
+                    },
+                    "DC_AccountId": {
+                        "bsonType": "string"
+                    },
+                    "Description": {
+                        "bsonType": "string"
+                    },
+                    "DisplayFileName": {
+                        "bsonType": "string"
+                    },
+                    "DisplayUser": {
+                        "bsonType": "string"
+                    },
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    },
+                    "DocumentStatus": {
+                        "bsonType": "long"
+                    },
+                    "FileType": {
+                        "bsonType": "string"
+                    },
+                    "IsAIDataProcess": {
+                        "bsonType": "long"
+                    },
+                    "IsPhotoUpload": {
+                        "bsonType": "bool"
+                    },
+                    "IsSyncRecord": {
+                        "bsonType": "long"
+                    },
+                    "IsThumbUpload": {
+                        "bsonType": "bool"
+                    },
+                    "Latitude": {
+                        "bsonType": "double"
+                    },
+                    "LoadedDate": {
+                        "bsonType": "date"
+                    },
+                    "Longitude": {
+                        "bsonType": "double"
+                    },
+                    "OpportunityID": {
+                        "bsonType": "string"
+                    },
+                    "PartitionKey": {
+                        "bsonType": "string"
+                    },
+                    "ProgramName": {
+                        "bsonType": "string"
+                    },
+                    "S3ActualImage": {
+                        "bsonType": "string"
+                    },
+                    "S3ThumbImage": {
+                        "bsonType": "string"
+                    },
+                    "TagText": {
+                        "bsonType": "string"
+                    },
+                    "UniqueFileName": {
+                        "bsonType": "string"
+                    },
+                    "UpdatedBy": {
+                        "bsonType": "long"
+                    },
+                    "UpdatedDate": {
+                        "bsonType": "date"
+                    },
+                    "UploadImageFrom": {
+                        "bsonType": "long"
+                    },
+                    "_id": {
+                        "bsonType": "objectId"
+                    }
+                }
+            }
+        },
+        "ObjAdvanceSearch": {
+            "bsonType": "object",
+            "properties": {
+                "AccessToken": {
+                    "bsonType": "string"
+                },
+                "AccountLicenseTypeLiquorOnly": {
+                    "bsonType": "string"
+                },
+                "AccountLicenseTypeMaltOnly": {
+                    "bsonType": "string"
+                },
+                "AccountLicenseTypeWineLiquor": {
+                    "bsonType": "string"
+                },
+                "AccountLicenseTypeWineMalt": {
+                    "bsonType": "string"
+                },
+                "AccountLicenseTypeWineOnly": {
+                    "bsonType": "string"
+                },
+                "AccountSortBy": {
+                    "bsonType": "string"
+                },
+                "AccountStatus": {
+                    "bsonType": "int"
+                },
+                "AccountType": {
+                    "bsonType": "int"
+                },
+                "AppVersion": {
+                    "bsonType": "string"
+                },
+                "Appletion": {
+                    "bsonType": "string"
+                },
+                "Brands": {
+                    "bsonType": "string"
+                },
+                "Buy": {
+                    "bsonType": "string"
+                },
+                "CognitoUserID": {
+                    "bsonType": "string"
+                },
+                "ConfigVersion": {
+                    "bsonType": "int"
+                },
+                "CurrentLoc": {
+                    "bsonType": "object",
+                    "properties": {
+                        "coordinates": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "double"
+                            }
+                        },
+                        "type": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "Distance": {
+                    "bsonType": "int"
+                },
+                "DivisionCode": {
+                    "bsonType": "int"
+                },
+                "DivisionName": {
+                    "bsonType": "string"
+                },
+                "Flavor": {
+                    "bsonType": "string"
+                },
+                "GetResult": {
+                    "bsonType": "int"
+                },
+                "IsDistanceOff": {
+                    "bsonType": "bool"
+                },
+                "Keyword": {
+                    "bsonType": "string"
+                },
+                "PageIndex": {
+                    "bsonType": "int"
+                },
+                "PageSize": {
+                    "bsonType": "int"
+                },
+                "ProcessID": {
+                    "bsonType": "string"
+                },
+                "ReleaseDate": {
+                    "bsonType": "date"
+                },
+                "RequestSyncTime": {
+                    "bsonType": "long"
+                },
+                "ResultCount": {
+                    "bsonType": "long"
+                },
+                "SalesTypeID": {
+                    "bsonType": "int"
+                },
+                "SchduleType": {
+                    "bsonType": "int"
+                },
+                "SearchByKeyword": {
+                    "bsonType": "int"
+                },
+                "SearchLocationAddress": {
+                    "bsonType": "string"
+                },
+                "Size": {
+                    "bsonType": "string"
+                },
+                "TimePeriod": {
+                    "bsonType": "string"
+                },
+                "UTCOffsetSeconds": {
+                    "bsonType": "double"
+                },
+                "UserEmail": {
+                    "bsonType": "string"
+                },
+                "UserLocationLoc": {
+                    "bsonType": "object",
+                    "properties": {
+                        "coordinates": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "double"
+                            }
+                        },
+                        "type": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "Opp": {
+            "bsonType": "object",
+            "properties": {
+                "AdhocOpportunityID": {
+                    "bsonType": "string"
+                },
+                "AvaragePrice": {
+                    "bsonType": "double"
+                },
+                "ClientCode": {
+                    "bsonType": "long"
+                },
+                "ClientObjectiveId": {
+                    "bsonType": "string"
+                },
+                "CreatedBy": {
+                    "bsonType": "long"
+                },
+                "CreatedByUser": {
+                    "bsonType": "string"
+                },
+                "CreatedDate": {
+                    "bsonType": "date"
+                },
+                "CreatedDesignation": {
+                    "bsonType": "string"
+                },
+                "CreatedFrom": {
+                    "bsonType": "string"
+                },
+                "DC_AccountId": {
+                    "bsonType": "string"
+                },
+                "DataSourceFrom": {
+                    "bsonType": "long"
+                },
+                "DisplayDate": {
+                    "bsonType": "date"
+                },
+                "DisplayType": {
+                    "bsonType": "string"
+                },
+                "DivisionCode": {
+                    "bsonType": "int"
+                },
+                "DivisionName": {
+                    "bsonType": "string"
+                },
+                "EndDate": {
+                    "bsonType": "date"
+                },
+                "ExecutedByUser": {
+                    "bsonType": "string"
+                },
+                "ExecutedNote": {
+                    "bsonType": "string"
+                },
+                "ExecutedRoledId": {
+                    "bsonType": "string"
+                },
+                "ExpiredOppUnits": {
+                    "bsonType": "double"
+                },
+                "ExpiredProgramUnits": {
+                    "bsonType": "double"
+                },
+                "FileName": {
+                    "bsonType": "string"
+                },
+                "FindFileName": {
+                    "bsonType": "string"
+                },
+                "GoalMetric": {
+                    "bsonType": "string"
+                },
+                "GoalValue": {
+                    "bsonType": "string"
+                },
+                "IncentiveAvailableCode": {
+                    "bsonType": "string"
+                },
+                "IncentiveAvailableDesc": {
+                    "bsonType": "string"
+                },
+                "IncentiveCapMetricCode": {
+                    "bsonType": "string"
+                },
+                "IncentiveCapMetricCode2": {
+                    "bsonType": "string"
+                },
+                "IncentiveCapMetricDesc": {
+                    "bsonType": "string"
+                },
+                "IncentiveCapMetricDesc2": {
+                    "bsonType": "string"
+                },
+                "IncentiveCapValue": {
+                    "bsonType": "string"
+                },
+                "IncentiveGoalVerification": {
+                    "bsonType": "string"
+                },
+                "IncentiveMetricCode": {
+                    "bsonType": "string"
+                },
+                "IncentiveMetricDesc": {
+                    "bsonType": "string"
+                },
+                "IncentivePayouts": {
+                    "bsonType": "double"
+                },
+                "IncentiveQualifier": {
+                    "bsonType": "double"
+                },
+                "IncentiveValue": {
+                    "bsonType": "string"
+                },
+                "IncentiveVerCode": {
+                    "bsonType": "string"
+                },
+                "IncentiveVerDesc": {
+                    "bsonType": "string"
+                },
+                "InvalidReason": {
+                    "bsonType": "string"
+                },
+                "IsMovedToSupplier": {
+                    "bsonType": "bool"
+                },
+                "IsNextCallObjective": {
+                    "bsonType": "bool"
+                },
+                "IsOnGoing": {
+                    "bsonType": "bool"
+                },
+                "IsSyncRecord": {
+                    "bsonType": "long"
+                },
+                "ObjectiveDescription": {
+                    "bsonType": "string"
+                },
+                "ObjectiveId": {
+                    "bsonType": "long"
+                },
+                "ObjectiveName": {
+                    "bsonType": "string"
+                },
+                "ObjectiveStatus": {
+                    "bsonType": "string"
+                },
+                "ObjectiveStatusId": {
+                    "bsonType": "long"
+                },
+                "ObjectiveType": {
+                    "bsonType": "string"
+                },
+                "OppImportType": {
+                    "bsonType": "long"
+                },
+                "OppStatus": {
+                    "bsonType": "string"
+                },
+                "OppValue": {
+                    "bsonType": "double"
+                },
+                "PICOStandard": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "StandardCode": {
+                                "bsonType": "string"
+                            },
+                            "StandardDesc": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "POD": {
+                    "bsonType": "long"
+                },
+                "PartitionKey": {
+                    "bsonType": "string"
+                },
+                "PicoIncentiveAchive": {
+                    "bsonType": "int"
+                },
+                "PlannerID": {
+                    "bsonType": "long"
+                },
+                "ProgramID": {
+                    "bsonType": "long"
+                },
+                "ProgramProduct": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "AppellationCode": {
+                                "bsonType": "string"
+                            },
+                            "AppellationName": {
+                                "bsonType": "string"
+                            },
+                            "BrandCode": {
+                                "bsonType": "string"
+                            },
+                            "BrandName": {
+                                "bsonType": "string"
+                            },
+                            "CreatedBy": {
+                                "bsonType": "long"
+                            },
+                            "CreatedDate": {
+                                "bsonType": "date"
+                            },
+                            "FeatureTypeCode": {
+                                "bsonType": "string"
+                            },
+                            "FeatureTypeDesc": {
+                                "bsonType": "string"
+                            },
+                            "FlavorCode": {
+                                "bsonType": "string"
+                            },
+                            "FlavorName": {
+                                "bsonType": "string"
+                            },
+                            "GoalValue": {
+                                "bsonType": "double"
+                            },
+                            "IsCases": {
+                                "bsonType": "string"
+                            },
+                            "LobCode": {
+                                "bsonType": "string"
+                            },
+                            "LobName": {
+                                "bsonType": "string"
+                            },
+                            "PrdSeqNo": {
+                                "bsonType": "int"
+                            },
+                            "PromoTypeCode": {
+                                "bsonType": "string"
+                            },
+                            "PromoTypeDesc": {
+                                "bsonType": "string"
+                            },
+                            "SizeCode": {
+                                "bsonType": "string"
+                            },
+                            "SizeName": {
+                                "bsonType": "string"
+                            },
+                            "SupplierCode": {
+                                "bsonType": "string"
+                            },
+                            "SupplierName": {
+                                "bsonType": "string"
+                            },
+                            "UpdatedBy": {
+                                "bsonType": "long"
+                            },
+                            "UpdatedDate": {
+                                "bsonType": "date"
+                            }
+                        }
+                    }
+                },
+                "ProgramUOM": {
+                    "bsonType": "string"
+                },
+                "ProgramUOMDesc": {
+                    "bsonType": "string"
+                },
+                "ProgramUnits": {
+                    "bsonType": "double"
+                },
+                "PromoPriorityDesc": {
+                    "bsonType": "string"
+                },
+                "PromoPriorityID": {
+                    "bsonType": "double"
+                },
+                "ReportingUnits": {
+                    "bsonType": "double"
+                },
+                "S3FileUrl": {
+                    "bsonType": "string"
+                },
+                "SKUCount": {
+                    "bsonType": "double"
+                },
+                "SalesTypeID": {
+                    "bsonType": "long"
+                },
+                "StartDate": {
+                    "bsonType": "date"
+                },
+                "SupplierCode": {
+                    "bsonType": "string"
+                },
+                "UpdatedBy": {
+                    "bsonType": "long"
+                },
+                "UpdatedDate": {
+                    "bsonType": "date"
+                },
+                "UserRoleCode": {
+                    "bsonType": "string"
+                },
+                "UserRoleDesc": {
+                    "bsonType": "string"
+                },
+                "_id": {
+                    "bsonType": "objectId"
+                }
+            }
+        },
+        "OpportunityName": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PrePlanDate": {
+            "bsonType": "date"
+        },
+        "RecordStatus": {
+            "bsonType": "long"
+        },
+        "SalesType": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "isLinkToAll": {
+            "bsonType": "bool"
+        }
+    },
+    "title": "A360_T_Adhoc"
+}

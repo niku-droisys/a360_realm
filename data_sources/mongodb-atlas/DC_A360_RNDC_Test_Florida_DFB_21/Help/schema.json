@@ -1,0 +1,90 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "AppVersion": {
+            "bsonType": "string"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "FullName": {
+            "bsonType": "string"
+        },
+        "HelpImage": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "S3ActualImage": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "HelpImage"
+            }
+        },
+        "IsEmailSend": {
+            "bsonType": "bool"
+        },
+        "IsUserContactUpdate": {
+            "bsonType": "bool"
+        },
+        "IssueTypes": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PhoneNumber": {
+            "bsonType": "string"
+        },
+        "ReportedDateTime": {
+            "bsonType": "date"
+        },
+        "TimeZone": {
+            "bsonType": "string"
+        },
+        "UserAssignment": {
+            "bsonType": "string"
+        },
+        "UserEmail": {
+            "bsonType": "string"
+        },
+        "UserLocation": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "double"
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "UserLocation"
+        },
+        "UserLocationAddress": {
+            "bsonType": "string"
+        },
+        "UserRole": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "lstBranchCode": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        }
+    },
+    "required": [
+        "IsEmailSend",
+        "ReportedDateTime"
+    ],
+    "title": "Help"
+}

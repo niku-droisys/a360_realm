@@ -1,0 +1,41 @@
+{
+    "properties": {
+        "BrandCode": {
+            "bsonType": "string"
+        },
+        "BrandEligibilityId": {
+            "bsonType": "int"
+        },
+        "BrandEligibilityMappingId": {
+            "bsonType": "int"
+        },
+        "BrandName": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "EligibilityMappingStatusId": {
+            "bsonType": "int"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_BrandEligibilityMapping"
+}

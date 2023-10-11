@@ -1,0 +1,98 @@
+{
+    "properties": {
+        "AccountDocumentID": {
+            "bsonType": "string"
+        },
+        "AccountName": {
+            "bsonType": "string"
+        },
+        "Address": {
+            "bsonType": "string"
+        },
+        "City": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "Country": {
+            "bsonType": "string"
+        },
+        "County": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "DisplayName": {
+            "bsonType": "string"
+        },
+        "DistributorAccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "DocumentID": {
+            "bsonType": "string"
+        },
+        "EndDate": {
+            "bsonType": "date"
+        },
+        "FileType": {
+            "bsonType": "string"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "RouteList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        },
+        "S3ActualURL": {
+            "bsonType": "string"
+        },
+        "S3ThumbURL": {
+            "bsonType": "string"
+        },
+        "StartDate": {
+            "bsonType": "date"
+        },
+        "State": {
+            "bsonType": "string"
+        },
+        "UniqueName": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "Zip": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_AccountDocument"
+}

@@ -1,0 +1,62 @@
+{
+    "properties": {
+        "AccountLastActivityId": {
+            "bsonType": "long"
+        },
+        "AccountLastActivityStatusId": {
+            "bsonType": "long"
+        },
+        "ActiveFrom": {
+            "bsonType": "date"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DivisionCode": {
+            "bsonType": "long"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "LastActivity": {
+            "bsonType": "string"
+        },
+        "LastActivityAt": {
+            "bsonType": "date"
+        },
+        "LastActivityBy": {
+            "bsonType": "string"
+        },
+        "LastCallAt": {
+            "bsonType": "date"
+        },
+        "LastDeliveryAt": {
+            "bsonType": "date"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_T_AccountLastActivity"
+}

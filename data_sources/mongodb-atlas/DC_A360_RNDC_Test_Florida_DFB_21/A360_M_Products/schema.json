@@ -1,0 +1,116 @@
+{
+    "properties": {
+        "APPELL": {
+            "bsonType": "string"
+        },
+        "APPELLATION_ID": {
+            "bsonType": "string"
+        },
+        "APPELL_DESC": {
+            "bsonType": "string"
+        },
+        "BRAND_APPELL": {
+            "bsonType": "string"
+        },
+        "BRAND_CODE": {
+            "bsonType": "string"
+        },
+        "BRAND_ID": {
+            "bsonType": "string"
+        },
+        "BRAND_NAME": {
+            "bsonType": "string"
+        },
+        "CATEGORY": {
+            "bsonType": "string"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "ClientName": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "ExternalProductCode": {
+            "bsonType": "string"
+        },
+        "FLAVOR_CODE": {
+            "bsonType": "string"
+        },
+        "FLAVOR_NAME": {
+            "bsonType": "string"
+        },
+        "GalloCompetitorID": {
+            "bsonType": "long"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "LA_FLV_CD": {
+            "bsonType": "string"
+        },
+        "LA_FLV_DESC": {
+            "bsonType": "string"
+        },
+        "LOB_CODE": {
+            "bsonType": "string"
+        },
+        "LOB_NAME": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "ProductCode": {
+            "bsonType": "string"
+        },
+        "RPT_SEQ_N": {
+            "bsonType": "string"
+        },
+        "SIZE_CODE": {
+            "bsonType": "string"
+        },
+        "SIZE_NAME": {
+            "bsonType": "string"
+        },
+        "SUPPLIER": {
+            "bsonType": "string"
+        },
+        "Standard": {
+            "bsonType": "long"
+        },
+        "TIER_CD": {
+            "bsonType": "string"
+        },
+        "TIER_DESC": {
+            "bsonType": "string"
+        },
+        "UPC": {
+            "bsonType": "string"
+        },
+        "UPC_PROD_DESC": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "VARIETAL": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_Product"
+}

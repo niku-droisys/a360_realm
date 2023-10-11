@@ -1,0 +1,93 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "ActiveFrom": {
+            "bsonType": "date"
+        },
+        "CanAdd": {
+            "bsonType": "bool"
+        },
+        "CanCreateChildPrePlan": {
+            "bsonType": "bool"
+        },
+        "CanCreateObjective": {
+            "bsonType": "bool"
+        },
+        "CanDelete": {
+            "bsonType": "bool"
+        },
+        "CanDoMassPush": {
+            "bsonType": "bool"
+        },
+        "CanEdit": {
+            "bsonType": "bool"
+        },
+        "CanExecuteChildObjective": {
+            "bsonType": "bool"
+        },
+        "CanExecuteObjective": {
+            "bsonType": "bool"
+        },
+        "CanShareDocument": {
+            "bsonType": "bool"
+        },
+        "CanView": {
+            "bsonType": "bool"
+        },
+        "CanViewChildPrePlan": {
+            "bsonType": "bool"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "IsDisplayOnAccount": {
+            "bsonType": "bool"
+        },
+        "IsIncentiveEligible": {
+            "bsonType": "bool"
+        },
+        "IsMCLoginAllowed": {
+            "bsonType": "bool"
+        },
+        "IsOfflineUser": {
+            "bsonType": "bool"
+        },
+        "IsSurveyAllowed": {
+            "bsonType": "bool"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "RoleId": {
+            "bsonType": "long"
+        },
+        "RolePermissionId": {
+            "bsonType": "long"
+        },
+        "RolePermissionStatusId": {
+            "bsonType": "long"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_RolePermission"
+}

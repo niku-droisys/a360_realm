@@ -1,0 +1,105 @@
+{
+    "properties": {
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "CocktailName": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "Garnish": {
+            "bsonType": "string"
+        },
+        "Glassware": {
+            "bsonType": "string"
+        },
+        "HolidayCocktail": {
+            "bsonType": "string"
+        },
+        "Ingredient": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "Instructions": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "Other": {
+            "bsonType": "string"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "RecipeAccountType": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "RecipeBrand": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "BrandID": {
+                        "bsonType": "string"
+                    },
+                    "Code": {
+                        "bsonType": "string"
+                    },
+                    "Name": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "S3ActualImage": {
+            "bsonType": "string"
+        },
+        "S3ThumbImage": {
+            "bsonType": "string"
+        },
+        "SeasonalCocktail": {
+            "bsonType": "string"
+        },
+        "SignatureCocktail": {
+            "bsonType": "string"
+        },
+        "Spirit": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "Variations": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Variation": {
+                        "bsonType": "string"
+                    },
+                    "VariationType": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_CocktailRecipe"
+}

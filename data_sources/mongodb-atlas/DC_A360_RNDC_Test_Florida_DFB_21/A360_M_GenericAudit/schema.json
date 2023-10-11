@@ -1,0 +1,110 @@
+{
+    "properties": {
+        "AuditCode": {
+            "bsonType": "string"
+        },
+        "AuditDescription": {
+            "bsonType": "string"
+        },
+        "AuditId": {
+            "bsonType": "int"
+        },
+        "AuditJSON": {
+            "bsonType": "string"
+        },
+        "AuditName": {
+            "bsonType": "string"
+        },
+        "AuditScheduleAccountId": {
+            "bsonType": "int"
+        },
+        "AuditScheduleId": {
+            "bsonType": "int"
+        },
+        "AuditStatusId": {
+            "bsonType": "int"
+        },
+        "ClientCode": {
+            "bsonType": "int"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "DC_AccountId": {
+            "bsonType": "string"
+        },
+        "DisplayDate": {
+            "bsonType": "date"
+        },
+        "DivisionCode": {
+            "bsonType": "int"
+        },
+        "DivisionName": {
+            "bsonType": "string"
+        },
+        "EndDate": {
+            "bsonType": "date"
+        },
+        "ExecutedByName": {
+            "bsonType": "string"
+        },
+        "IsActive": {
+            "bsonType": "bool"
+        },
+        "IsDraft": {
+            "bsonType": "bool"
+        },
+        "IsGoingOn": {
+            "bsonType": "bool"
+        },
+        "IsSynced": {
+            "bsonType": "int"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "PopUpAlert": {
+            "bsonType": "int"
+        },
+        "ResponseCode": {
+            "bsonType": "string"
+        },
+        "ResponseId": {
+            "bsonType": "int"
+        },
+        "RouteList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        },
+        "SortOrder": {
+            "bsonType": "int"
+        },
+        "StartDate": {
+            "bsonType": "date"
+        },
+        "TotalNoOfAns": {
+            "bsonType": "int"
+        },
+        "TotalNoOfQtns": {
+            "bsonType": "int"
+        },
+        "TypeCode": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_GenericAudit"
+}

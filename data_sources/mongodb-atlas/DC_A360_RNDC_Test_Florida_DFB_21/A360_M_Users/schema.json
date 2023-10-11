@@ -1,0 +1,177 @@
+{
+    "properties": {
+        "ActiveFrom": {
+            "bsonType": "date"
+        },
+        "ClientCode": {
+            "bsonType": "long"
+        },
+        "ClientUserName": {
+            "bsonType": "string"
+        },
+        "CreatedBy": {
+            "bsonType": "long"
+        },
+        "CreatedDate": {
+            "bsonType": "date"
+        },
+        "IsSyncRecord": {
+            "bsonType": "long"
+        },
+        "PartitionKey": {
+            "bsonType": "string"
+        },
+        "Remarks": {
+            "bsonType": "string"
+        },
+        "UpdatedBy": {
+            "bsonType": "long"
+        },
+        "UpdatedDate": {
+            "bsonType": "date"
+        },
+        "UserCode": {
+            "bsonType": "long"
+        },
+        "UserEmail": {
+            "bsonType": "string"
+        },
+        "UserFirstName": {
+            "bsonType": "string"
+        },
+        "UserId": {
+            "bsonType": "long"
+        },
+        "UserLastName": {
+            "bsonType": "string"
+        },
+        "UserMiddleName": {
+            "bsonType": "string"
+        },
+        "UserMobile": {
+            "bsonType": "string"
+        },
+        "UserModules": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "ModuleName": {
+                        "bsonType": "string"
+                    },
+                    "ModuleStatus": {
+                        "bsonType": "bool"
+                    }
+                }
+            }
+        },
+        "UserPhone": {
+            "bsonType": "string"
+        },
+        "UserProfilePicUrl": {
+            "bsonType": "string"
+        },
+        "UserRoles": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "BranchCode": {
+                        "bsonType": "string"
+                    },
+                    "BranchDescription": {
+                        "bsonType": "string"
+                    },
+                    "CanAdd": {
+                        "bsonType": "bool"
+                    },
+                    "CanCreateChildPrePlan": {
+                        "bsonType": "bool"
+                    },
+                    "CanCreateObjective": {
+                        "bsonType": "bool"
+                    },
+                    "CanDelete": {
+                        "bsonType": "bool"
+                    },
+                    "CanEdit": {
+                        "bsonType": "bool"
+                    },
+                    "CanExecuteChildObjective": {
+                        "bsonType": "bool"
+                    },
+                    "CanExecuteObjective": {
+                        "bsonType": "bool"
+                    },
+                    "CanShareDocument": {
+                        "bsonType": "bool"
+                    },
+                    "CanView": {
+                        "bsonType": "bool"
+                    },
+                    "CanViewChildPrePlan": {
+                        "bsonType": "bool"
+                    },
+                    "DivisionCode": {
+                        "bsonType": "int"
+                    },
+                    "DivisionName": {
+                        "bsonType": "string"
+                    },
+                    "IgnoreRoute": {
+                        "bsonType": "bool"
+                    },
+                    "IsDefaultRole": {
+                        "bsonType": "bool"
+                    },
+                    "IsIncentiveEligible": {
+                        "bsonType": "bool"
+                    },
+                    "IsMCLoginAllowed": {
+                        "bsonType": "bool"
+                    },
+                    "IsMassPushAllowed": {
+                        "bsonType": "bool"
+                    },
+                    "IsOnlineUser": {
+                        "bsonType": "bool"
+                    },
+                    "IsSurveyAllowed": {
+                        "bsonType": "bool"
+                    },
+                    "ManagerCode": {
+                        "bsonType": "int"
+                    },
+                    "RoleCategory": {
+                        "bsonType": "string"
+                    },
+                    "RoleCode": {
+                        "bsonType": "int"
+                    },
+                    "RoleDescrption": {
+                        "bsonType": "string"
+                    },
+                    "RoleGroup": {
+                        "bsonType": "int"
+                    },
+                    "RoleId": {
+                        "bsonType": "int"
+                    },
+                    "RoleName": {
+                        "bsonType": "string"
+                    },
+                    "RoleRank": {
+                        "bsonType": "int"
+                    }
+                }
+            }
+        },
+        "UserStatusId": {
+            "bsonType": "long"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "A360_M_User"
+}
